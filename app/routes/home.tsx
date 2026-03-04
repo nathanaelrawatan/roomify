@@ -128,7 +128,7 @@ export default function Home() {
                             <div className="project-card group" key={id} onClick={() => navigate(`/visualizer/${id}`)}>
                                 <div className="preview">
                                     <img
-                                        src={renderedImage || sourceImage}g
+                                        src={renderedImage || sourceImage}
                                         alt="Project"/>
 
                                     <div className="badge">
