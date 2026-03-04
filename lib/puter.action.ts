@@ -98,6 +98,7 @@ export const getProjects = async () => {
         return Array.isArray(data?.projects) ? data.projects : []
     } catch (e) {
         console.error(`Failed to fetch projects: ${e}`)
+        return []
     }
 }
 
